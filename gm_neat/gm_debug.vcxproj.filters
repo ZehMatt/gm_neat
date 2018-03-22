@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{be59f8f8-048a-4962-86be-6fe4e277c4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{0d1171f3-0a6a-4207-b20a-e11a9f4a4286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GarrysMod">
+      <UniqueIdentifier>{4f50947d-c943-4b2b-8b24-93747a17a6de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GarrysMod\Lua">
+      <UniqueIdentifier>{6d5faad4-de76-4aaf-9608-de7c5da86a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Neat">
+      <UniqueIdentifier>{1963c8b8-9379-4a06-8f05-1545c6789af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Neat">
+      <UniqueIdentifier>{43d59d2c-ac69-46af-8375-17770410adc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\gmodule.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Neat\Population.cpp">
+      <Filter>src\Neat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Neat\Random.cpp">
+      <Filter>src\Neat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Neat\Species.cpp">
+      <Filter>src\Neat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Neat\Substrate.cpp">
+      <Filter>src\Neat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Neat\Utils.cpp">
+      <Filter>src\Neat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Neat\Genome.cpp">
+      <Filter>src\Neat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Neat\Innovation.cpp">
+      <Filter>src\Neat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Neat\NeuralNetwork.cpp">
+      <Filter>src\Neat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Neat\Parameters.cpp">
+      <Filter>src\Neat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Neat\PhenotypeBehavior.cpp">
+      <Filter>src\Neat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Neat\Test.cpp">
+      <Filter>src\Neat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Neat\ActivationFunctions.cpp">
+      <Filter>src\Neat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LuaBlackbox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LuaIndividual.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\GarrysMod\Lua\Interface.h">
+      <Filter>include\GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GarrysMod\Lua\LuaBase.h">
+      <Filter>include\GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GarrysMod\Lua\Types.h">
+      <Filter>include\GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GarrysMod\Lua\UserData.h">
+      <Filter>include\GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Logging.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Neat\Parameters.h">
+      <Filter>include\Neat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Neat\PhenotypeBehavior.h">
+      <Filter>include\Neat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Neat\Population.h">
+      <Filter>include\Neat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Neat\Random.h">
+      <Filter>include\Neat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Neat\Species.h">
+      <Filter>include\Neat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Neat\Substrate.h">
+      <Filter>include\Neat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Neat\Utils.h">
+      <Filter>include\Neat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Neat\Assert.h">
+      <Filter>include\Neat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Neat\Genes.h">
+      <Filter>include\Neat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Neat\Genome.h">
+      <Filter>include\Neat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Neat\Innovation.h">
+      <Filter>include\Neat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Neat\NeuralNetwork.h">
+      <Filter>include\Neat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Neat\ActivationFunctions.h">
+      <Filter>include\Neat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaBlackbox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Params.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaIndividual.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
